@@ -1,10 +1,10 @@
 # Tensorflow Workshop Series
 
-Code, Slides, &amp; Materials for our Tensorflow Workshop Series, Spring Quarter 2017
+Code, Slides, &amp; Materials for our Tensorflow Workshop Series, Fall Quarter 2017
 
 ### Getting a Python and Machine Learning Environment Up and Running
 
-Please complete these tasks before the workshop in order to hit the ground running! Don’t worry if you run into some errors though, we will have mentors on hand to help you through setup. 
+Please complete these tasks before the workshop in order to hit the ground running! Don’t worry if you run into some errors though, we will have mentors on hand to help you through setup. We'll also be hosting office hours for installation help on Tuesday, 10/7 from 5-7pm in Sproul Lecture Room.
 
 #### Mac & Linux Installation Instructions
  
