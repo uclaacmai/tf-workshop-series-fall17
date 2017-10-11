@@ -38,8 +38,34 @@ print(sess.run(hello))
 
 If it runs without any errors, then you're good to go!
 
-
 #### Windows Installation Instructions
+
+#### Highly recommended: Installing with the Anaconda Distribution
+
+- Anaconda is a package managing tool for Python that can be installed for both Mac and Windows. We've found that going with Anaconda results in the least installation issues for those of you who are using Windows. 
+
+First, download Anaconda at this link: https://www.anaconda.com/download/#windows. We recommend downloading the Python 3.6 installation. 
+
+After Anaconda has downloaded, open it up and install it. The installation process takes a while, but after you should see a screen with the option "Register Anaconda as my default Python". Check this, and continue. 
+
+Once the installation is finished, you should be able to open up the Anaconda prompt, and invoke `python`. In the `python` interpreter, the commands `import sklearn` `import matplotlib` `import numpy` should all work. 
+
+Finally, install Tensorflow with the Anaconda package manager, known as `conda`: `conda install Tensorflow`. Now, you should be able to execute the following program without any issues: 
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+import tensorflow as tf
+hello = tf.constant('Hello, Tensorflow!')
+sess = tf.Session()
+print(sess.run(hello))
+```
+
+For additional details on Anaconda installation, see [this](https://medium.com/@GalarnykMichael/install-python-on-windows-anaconda-c63c7c3d1444) helpful link.
+
+#### Installing on Windows without Anaconda
+
+If you don't want to use Anaconda, follow these steps to get your environment and tools up and running.
 
 Source to refer: https://www.tensorflow.org/install/install_windows
 
