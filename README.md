@@ -20,7 +20,7 @@ If you have Python 2 >=2.7.9 or Python 3 >=3.4 , you will already have `pip` ins
 
 If you don't have one of `pip` or `pip3` installed, run `sudo easy_install pip`. 
 
-Run ```pip3 install numpy matplotlib tensorflow sklearn jupyter``` if you are running Python3, otherwise run ```pip install numpy matplotlib tensorflow jupyter sklearn```. This command may have to be prefaced with the `sudo` keyword. 
+Run ```pip3 install numpy matplotlib tensorflow sklearn jupyter scipy``` if you are running Python3, otherwise run ```pip install numpy matplotlib tensorflow jupyter sklearn scipy```. This command may have to be prefaced with the `sudo` keyword. 
 
 If you have installed any of these packages before, make sure to run `pip install [PACKAGE] --upgrade` to ensure that you have the latest version. 
 
