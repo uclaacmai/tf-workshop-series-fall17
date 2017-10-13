@@ -4,7 +4,7 @@ Code, Slides, &amp; Materials for our Tensorflow Workshop Series, Fall Quarter 2
 
 ### Getting a Python and Machine Learning Environment Up and Running
 
-Please complete these tasks before the workshop in order to hit the ground running! Don’t worry if you run into some errors though, we will have mentors on hand to help you through setup. We'll also be hosting office hours for installation help on Tuesday, 10/7 from 5-7pm in Sproul Lecture Room.
+Please complete these tasks before the workshop in order to hit the ground running! Don’t worry if you run into some errors though, we will have mentors on hand to help you through setup. We'll also be hosting office hours for installation help on Tuesday, 10/10 from 5-7pm in Sproul Lecture Room.
 
 #### Mac & Linux Installation Instructions
  
@@ -20,7 +20,7 @@ If you have Python 2 >=2.7.9 or Python 3 >=3.4 , you will already have `pip` ins
 
 If you don't have one of `pip` or `pip3` installed, run `sudo easy_install pip`. 
 
-Run ```pip3 install numpy matplotlib tensorflow sklearn jupyter``` if you are running Python3, otherwise run ```pip install numpy matplotlib tensorflow jupyter sklearn```. This command may have to be prefaced with the `sudo` keyword. 
+Run ```pip3 install numpy matplotlib tensorflow sklearn jupyter scipy``` if you are running Python3, otherwise run ```pip install numpy matplotlib tensorflow jupyter sklearn scipy```. This command may have to be prefaced with the `sudo` keyword. 
 
 If you have installed any of these packages before, make sure to run `pip install [PACKAGE] --upgrade` to ensure that you have the latest version. 
 
@@ -38,8 +38,34 @@ print(sess.run(hello))
 
 If it runs without any errors, then you're good to go!
 
-
 #### Windows Installation Instructions
+
+#### Highly recommended: Installing with the Anaconda Distribution
+
+- Anaconda is a package managing tool for Python that can be installed for both Mac and Windows. We've found that going with Anaconda results in the least installation issues for those of you who are using Windows. 
+
+First, download Anaconda at this link: https://www.anaconda.com/download/#windows. We recommend downloading the Python 3.6 installation. 
+
+After Anaconda has downloaded, open it up and install it. The installation process takes a while, but after you should see a screen with the option "Register Anaconda as my default Python". Check this, and continue. 
+
+Once the installation is finished, you should be able to open up the Anaconda prompt, and invoke `python`. In the `python` interpreter, the commands `import sklearn` `import matplotlib` `import numpy` should all work. 
+
+Finally, install Tensorflow with the Anaconda package manager, known as `conda`: `conda install Tensorflow`. Now, you should be able to execute the following program without any issues: 
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+import tensorflow as tf
+hello = tf.constant('Hello, Tensorflow!')
+sess = tf.Session()
+print(sess.run(hello))
+```
+
+For additional details on Anaconda installation, see [this](https://medium.com/@GalarnykMichael/install-python-on-windows-anaconda-c63c7c3d1444) helpful link.
+
+#### Installing on Windows without Anaconda
+
+If you don't want to use Anaconda, follow these steps to get your environment and tools up and running.
 
 Source to refer: https://www.tensorflow.org/install/install_windows
 
