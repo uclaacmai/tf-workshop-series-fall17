@@ -7,19 +7,13 @@ Code, Slides, &amp; Materials for our Tensorflow Workshop Series, Fall Quarter 2
 Please complete these tasks before the workshop in order to hit the ground running! Don’t worry if you run into some errors though, we will have mentors on hand to help you through setup. We'll also be hosting office hours for installation help on Tuesday, 10/10 from 5-7pm in Sproul Lecture Room.
 
 #### Mac & Linux Installation Instructions
+
+If you don't have `brew`, install it by using the command available [here](https://brew.sh/). 
+
+(Optional: We recommend a `python3` installation. Your mac currently likely comes with Python 2 as the default built-in.) 
+
+If you don't have `python3` installed (check by typing `python3` in the terminal), run `brew install python3`. This will install `python3` and a package manager, `pip3` for you. This may take a while.
  
-Source to refer to: https://www.tensorflow.org/install/install_mac
-
-The code in this workshop will be compatible with either Python 3+ or Python 2.7+. 
-
-Check if you have Python (or Python 3) installed on your mac via the terminal: ```python``` or ```python3```
-
-If you don’t have it installed, run ```brew install python``` or ```brew install python3```. This command may have to be prefaced with the `sudo` keyword. 
-
-If you have Python 2 >=2.7.9 or Python 3 >=3.4 , you will already have `pip` installed. 
-
-If you don't have one of `pip` or `pip3` installed, run `sudo easy_install pip`. 
-
 Run ```pip3 install numpy matplotlib tensorflow sklearn jupyter scipy``` if you are running Python3, otherwise run ```pip install numpy matplotlib tensorflow jupyter sklearn scipy```. This command may have to be prefaced with the `sudo` keyword. 
 
 If you have installed any of these packages before, make sure to run `pip install [PACKAGE] --upgrade` to ensure that you have the latest version. 
